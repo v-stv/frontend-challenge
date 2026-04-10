@@ -1,0 +1,10 @@
+.page {
+    width: 100%;
+    overflow: hidden;
+}
+
+.empty {
+    margin: 0;
+    font-size: var(--font-size-md);
+    color: var(--color-text-secondary);
+}

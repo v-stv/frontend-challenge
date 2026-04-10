@@ -1,0 +1,20 @@
+.card {
+    composes: cardBase from '../CatCardShared.module.css';
+}
+
+.image {
+    composes: imageBase from '../CatCardShared.module.css';
+}
+
+.favoriteButton {
+    background: var(--favorite-bg-light);
+}
+
+.favoriteButtonActive .favoriteIcon {
+    fill: var(--favorite-accent);
+    stroke: var(--favorite-accent);
+}
+
+.favoriteIcon {
+    composes: favoriteIconBase from '../CatCardShared.module.css';
+}

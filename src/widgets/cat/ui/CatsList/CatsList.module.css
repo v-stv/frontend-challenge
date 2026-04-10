@@ -1,0 +1,11 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.status {
+    margin: var(--content-gap-md) 0;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}

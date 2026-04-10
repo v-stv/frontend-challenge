@@ -1,0 +1,21 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--header-nav-gap);
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.menu::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

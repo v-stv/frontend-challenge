@@ -1,0 +1,32 @@
+.cardBase {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    background: var(--card-background);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    transform-origin: center;
+}
+
+.cardBase:hover {
+    transform: scale(var(--card-hover-scale));
+    z-index: 1;
+    box-shadow: var(--card-hover-shadow);
+}
+
+.imageBase {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.favoriteIconBase {
+    width: var(--favorite-icon-size);
+    height: var(--favorite-icon-size);
+    fill: transparent;
+    stroke: var(--color-white);
+    stroke-width: var(--favorite-stroke-width);
+    transition: fill var(--transition-fast), stroke var(--transition-fast);
+}

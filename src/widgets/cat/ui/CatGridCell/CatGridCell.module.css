@@ -1,0 +1,34 @@
+.card {
+    composes: cardBase from '../../../../entities/cat/ui/CatCardShared.module.css';
+}
+
+.favoriteButton {
+    background: var(--favorite-bg-dark);
+    opacity: 0;
+    transform: translateY(-4px) scale(0.95);
+    transition: opacity var(--transition-fast), transform var(--transition-fast), background-color var(--transition-fast);
+}
+
+.card:hover .favoriteButton,
+.favoriteButtonActive {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.favoriteButton:hover {
+    background: var(--favorite-bg-light);
+}
+
+.favoriteIcon {
+    composes: favoriteIconBase from '../../../../entities/cat/ui/CatCardShared.module.css';
+}
+
+.favoriteButton:hover .favoriteIcon,
+.favoriteButtonActive .favoriteIcon {
+    fill: var(--favorite-accent);
+    stroke: var(--favorite-accent);
+}
+
+.image {
+    composes: imageBase from '../../../../entities/cat/ui/CatCardShared.module.css';
+}

@@ -1,0 +1,100 @@
+:root {
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-xl: 28px;
+    --font-size-hero: 72px;
+
+    --layout-main-padding-block: 48px;
+    --layout-main-padding-inline: 62px;
+
+    --header-height: 64px;
+    --header-background: #2196f3;
+    --header-nav-gap: 2px;
+    --header-link-padding-inline: 18px;
+    --header-link-radius: 6px;
+    --header-focus-outline-width: 2px;
+    --header-link-hover-background: #1e88e5;
+    --header-link-active-background: #1976d2;
+    --header-link-inactive: rgba(255, 255, 255, 0.72);
+
+    --color-text-primary: #1f1f1f;
+    --color-text-secondary: #4d4d4d;
+    --color-white: #ffffff;
+
+    --card-radius: 12px;
+    --card-background: #f2f3f5;
+    --card-hover-scale: 1.03;
+    --card-hover-shadow: 0 8px 18px rgba(0, 0, 0, 0.22);
+    --card-cell-min-height: 180px;
+
+    --grid-padding: 8px;
+    --grid-gap: 16px;
+    --grid-columns: 5;
+
+    --favorite-button-size: 32px;
+    --favorite-button-offset: 8px;
+    --favorite-icon-size: 18px;
+    --favorite-stroke-width: 2px;
+    --favorite-accent: #ff415c;
+    --favorite-bg-dark: rgba(0, 0, 0, 0.35);
+    --favorite-bg-light: rgba(255, 255, 255, 0.95);
+
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.25s ease;
+
+    --spinner-size: 44px;
+    --spinner-border-width: 4px;
+    --spinner-container-min-height: 160px;
+    --spinner-gap: 12px;
+
+    --content-gap-sm: 12px;
+    --content-gap-md: 16px;
+    --action-radius: 10px;
+    --action-padding-block: 10px;
+    --action-padding-inline: 18px;
+}
+
+@media (max-width: 1279px) {
+    :root {
+        --layout-main-padding-block: 40px;
+        --layout-main-padding-inline: 40px;
+        --header-height: 60px;
+        --header-link-padding-inline: 16px;
+    }
+}
+
+@media (max-width: 959px) {
+    :root {
+        --layout-main-padding-block: 32px;
+        --layout-main-padding-inline: 24px;
+        --header-height: 56px;
+        --header-link-padding-inline: 14px;
+        --card-cell-min-height: 160px;
+        --grid-columns: 3;
+    }
+}
+
+@media (max-width: 719px) {
+    :root {
+        --layout-main-padding-block: 24px;
+        --layout-main-padding-inline: 16px;
+        --header-height: 52px;
+        --font-size-xl: 24px;
+        --font-size-hero: 56px;
+        --card-cell-min-height: 140px;
+        --grid-columns: 2;
+    }
+}
+
+@media (max-width: 479px) {
+    :root {
+        --layout-main-padding-block: 18px;
+        --layout-main-padding-inline: 12px;
+        --header-height: 48px;
+        --header-link-padding-inline: 12px;
+        --font-size-xl: 20px;
+        --font-size-hero: 42px;
+        --action-padding-block: 8px;
+        --action-padding-inline: 14px;
+    }
+}

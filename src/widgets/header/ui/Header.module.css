@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: var(--header-height);
+    background: var(--header-background);
+    padding-inline: var(--layout-main-padding-inline);
+}

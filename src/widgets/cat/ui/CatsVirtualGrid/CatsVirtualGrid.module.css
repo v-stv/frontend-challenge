@@ -1,0 +1,7 @@
+.gridViewport {
+    composes: gridViewportBase from '../../../VirtualGridShared.module.css';
+}
+
+.grid {
+    composes: gridScrollableBase from '../../../VirtualGridShared.module.css';
+}

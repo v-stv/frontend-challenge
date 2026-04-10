@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    gap: var(--grid-gap);
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    min-height: var(--card-cell-min-height);
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    background: linear-gradient(
+        110deg,
+        rgba(33, 150, 243, 0.08) 8%,
+        rgba(33, 150, 243, 0.18) 18%,
+        rgba(33, 150, 243, 0.08) 33%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-shimmer 1.2s linear infinite;
+}
+
+@keyframes skeleton-shimmer {
+    to {
+        background-position-x: -200%;
+    }
+}

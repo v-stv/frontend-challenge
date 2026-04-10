@@ -1,0 +1,6 @@
+export const FAVORITE_COLUMNS = 5
+export const FAVORITE_ROWS_PER_VIEWPORT = 3
+export const FAVORITE_GRID_GAP = 16
+export const FAVORITE_GRID_VIEWPORT_PADDING = 8
+export const FAVORITE_MIN_CARD_HEIGHT = 120
+export const FAVORITE_OVERSCAN_ROWS = 2

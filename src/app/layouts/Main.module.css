@@ -1,0 +1,3 @@
+.main {
+    padding: var(--layout-main-padding-block) var(--layout-main-padding-inline);
+}
