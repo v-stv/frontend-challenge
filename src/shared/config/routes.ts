@@ -1,5 +1,5 @@
 export enum EAppRoutes {
-    CAT_CATALOG = '/frontend-challenge/',
+    CAT_CATALOG = '/',
     FAVORITE_CATS = 'favorites',
     NOT_FOUND = '*',
 }
